@@ -43,7 +43,7 @@ export default function Home() {
               <p className="text-xs text-gray-500 mt-2 p-">Plots 1–9, 22–31 offer you 2 Bed Square Shaped Plan Houses</p>
             </div>
             {/* Card 2 */}
-            <div className="bg-gray-50 rounded-xl shadow-sm">
+            <div className="bg-gray-50 rounded-xl shadow-sm"> 
               <img src="/images/2 bed L shaped.png" alt="2 Bedroom house" className="rounded-lg mb-4 w-full object-cover"/>
               <h3 className="font-semibold text-lg">2 Bed L-Shaped Plans</h3>
               <p className="text-sm text-gray-700">(3 units available)</p>
