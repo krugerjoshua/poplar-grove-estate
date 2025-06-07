@@ -1,5 +1,9 @@
 import React from "react";
 import Navbar from "./Navbar";
+import sitePlan from '../assets/images/sitePlan.jpg';
+import bedSquare from '../assets/images/2 bed square.jpg';
+import bedLShaped from '../assets/images/2 bed L shaped.png';
+import bed6x3 from '../assets/images/6 x 3 bed.png';
 
 export default function Home() {
   return (
@@ -10,7 +14,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className="relative h-screen w-full">
         <img
-          src="/src/assets/images/sitePlan.jpg"
+          src={sitePlan}
           alt="Estate Aerial View"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -38,7 +42,7 @@ export default function Home() {
             {/* Card 1 */}
             <div className="bg-gray-(#F7F7F7) rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
               <div className="h-54 w-full overflow-hidden">
-              <img src="/src/assets/images/2 bed square.jpg" alt="2 Bedroom house" className="w-full h-full object-cover rounded-t-xl"/>
+              <img src={bedSquare} alt="2 Bedroom house" className="w-full h-full object-cover rounded-t-xl"/>
               </div>
               <h3 className="font-semibold text-lg">2 Bed Square<br />Shaped Plans</h3>
               <p className="text-sm text-gray-700">(19 units available)</p>
@@ -47,7 +51,7 @@ export default function Home() {
             {/* Card 2 */}
             <div className="bg-gray-50 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
               <div className="h-54 w-full overflow-hidden">
-              <img src="/src/assets/images/2 bed L shaped.png" alt="2 Bedroom house" className="w-full h-full object-cover rounded-t-xl"/>
+              <img src={bedLShaped} alt="2 Bedroom house" className="w-full h-full object-cover rounded-t-xl"/>
               </div>
               <h3 className="font-semibold text-lg">2 Bed L-Shaped Plans</h3>
               <p className="text-sm text-gray-700">(3 units available)</p>
@@ -56,7 +60,7 @@ export default function Home() {
             {/* Card 3 */}
             <div className="bg-gray-50 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
               <div className="h-54 w-full overflow-hidden">
-                <img src="/src/assets/images/6 x 3 bed.png" alt="2 Bedroom house" className="w-full h-full object-cover rounded-t-xl"/>
+                <img src={bed6x3} alt="2 Bedroom house" className="w-full h-full object-cover rounded-t-xl"/>
               </div>
               <h3 className="font-semibold text-lg">6 × 3 Bed<br />Square Shaped Plans</h3>
               <p className="text-sm text-gray-700">(6 units available)</p>
