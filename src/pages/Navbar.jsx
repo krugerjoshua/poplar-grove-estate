@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <header className="absolute top-0 left-0 w-full flex justify-between items-center px-6 py-4 z-10">
       <div className="flex items-center space-x-2">
-        <img src="/src/images/image.png" alt="Poplar Grove Estate" className="h-25" />
+        <img src="/src/assets/images/image.png" alt="Poplar Grove Estate" className="h-25" />
       </div>
       <nav className="space-x-6 text-16 font-semibold text-black">
         <a href="#" className="hover:underline">HOME</a>
