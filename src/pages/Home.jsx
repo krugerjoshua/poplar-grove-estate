@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./Navbar";
-import sitePlan from '../assets/images/sitePlan.jpg';
-import bedSquare from '../assets/images/2 bed square.jpg';
-import bedLShaped from '../assets/images/2 bed L shaped.png';
-import bed6x3 from '../assets/images/6 x 3 bed.png';
+import sitePlan from '/src/assets/images/sitePlan.jpg';
+import bedSquare from '/src/assets/images/2 bed square.jpg';
+import bedLShaped from '/src/assets/images/2 bed L shaped.png';
+import bed6x3 from 'src/assets/images/6 x 3 bed.png';
 
 export default function Home() {
   return (
