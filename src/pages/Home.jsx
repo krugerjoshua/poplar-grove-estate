@@ -10,7 +10,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className="relative h-screen w-full">
         <img
-          src="/images/sitePlan.jpg"
+          src="/src/images/sitePlan.jpg"
           alt="Estate Aerial View"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -34,24 +34,30 @@ export default function Home() {
             ENQUIRE NOW
           </button>
           {/* Property Cards */}
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="mt-12 mb-4 grid grid-cols-1 md:grid-cols-3 gap-10">
             {/* Card 1 */}
-            <div className="bg-gray-50 rounded-xl shadow-sm">
-              <img src="/images/2 bed square.jpg" alt="2 Bedroom house" className="rounded-lg mb-4 w-full object-cover"/>
+            <div className="bg-gray-(#F7F7F7) rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+              <div className="h-54 w-full overflow-hidden">
+              <img src="/src/images/2 bed square.jpg" alt="2 Bedroom house" className="w-full h-full object-cover rounded-t-xl"/>
+              </div>
               <h3 className="font-semibold text-lg">2 Bed Square<br />Shaped Plans</h3>
               <p className="text-sm text-gray-700">(19 units available)</p>
               <p className="text-xs text-gray-500 mt-2 p-">Plots 1–9, 22–31 offer you 2 Bed Square Shaped Plan Houses</p>
             </div>
             {/* Card 2 */}
-            <div className="bg-gray-50 rounded-xl shadow-sm"> 
-              <img src="/images/2 bed L shaped.png" alt="2 Bedroom house" className="rounded-lg mb-4 w-full object-cover"/>
+            <div className="bg-gray-50 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+              <div className="h-54 w-full overflow-hidden">
+              <img src="/src/images/2 bed L shaped.png" alt="2 Bedroom house" className="w-full h-full object-cover rounded-t-xl"/>
+              </div>
               <h3 className="font-semibold text-lg">2 Bed L-Shaped Plans</h3>
               <p className="text-sm text-gray-700">(3 units available)</p>
               <p className="text-xs text-gray-500 mt-2">Plots 10–12 offers you 2 Bed L-Shaped Plan Houses</p>
             </div>
             {/* Card 3 */}
-            <div className="bg-gray-50 rounded-xl shadow-sm">
-              <img src="/images/6 x 3 bed.png" alt="2 Bedroom house" className="rounded-lg mb-4 w-full object-cover"/>
+            <div className="bg-gray-50 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+              <div className="h-54 w-full overflow-hidden">
+                <img src="/src/images/6 x 3 bed.png" alt="2 Bedroom house" className="w-full h-full object-cover rounded-t-xl"/>
+              </div>
               <h3 className="font-semibold text-lg">6 × 3 Bed<br />Square Shaped Plans</h3>
               <p className="text-sm text-gray-700">(6 units available)</p>
               <p className="text-xs text-gray-500 mt-2">Plots 13–18 offers you 3 Bed Square Shaped Plan Houses</p>

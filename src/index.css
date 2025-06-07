@@ -1,1 +1,7 @@
 @import "tailwindcss";
+@font-face {
+  font-family: 'MADE Tommy';
+  src: url('/fonts/MADE TOMMY Regular_PERSONAL USE.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
